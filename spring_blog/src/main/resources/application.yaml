@@ -10,3 +10,7 @@ spring:
   h2:
     console:
       enabled: true
+
+  web:
+    resources:
+      static-locations: classpath:/templates, classpath:/static
