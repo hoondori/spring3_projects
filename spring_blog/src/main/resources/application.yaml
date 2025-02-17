@@ -14,3 +14,7 @@ spring:
   web:
     resources:
       static-locations: classpath:/templates, classpath:/static
+
+jwt:
+  issuer: hoondori@gmail.com
+  secret_key: test-secretkey
